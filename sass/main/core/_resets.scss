@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+[Resets ==> Must load last]
+-------------------------------------------------------------------*/
+#wrap {
+
+	.remove-dims {
+		height: auto;
+		width: auto;
+	}
+
+	.reset-styles {
+	    font-size: 1em;
+	    color: inherit;
+	    margin: 0;
+	    padding: 0;
+	    font-weight: normal;
+	    font-style: normal;
+	    border: none;
+	    background: none;
+	    letter-spacing: inherit;
+	}
+
+	 .reset-styles a {
+	    font-size: inherit;
+	    color: inherit;
+	}
+
+	.disable-box-shadow {
+	    @include box-shadow( none );
+	}
+
+}
+
+.page-id-5652 .gfield label{color:#000 !important;}.page-id-5652 input[type="text"]{background: #e6e5ef;}
+
+ .wow-modal-botton-1.wow_modal_button_right,
+ .wow-modal-botton-5.wow_modal_button_right{
+    background: #2db000;
+    width: 262px !important;
+    font-size:17px;
+}
+#wow-modal-overlay-1 .wow-modal-window,
+#wow-modal-overlay-5 .wow-modal-window {
+    background: #ccc;
+    position: absolute;
+}
+
+#wow-modal-window-1 div.modal-form-container > img {
+    width: 200;
+}
+
+#gform_wrapper_57 .gform_fields .gfield label{
+    color: #000 !important;
+}
+
+#gform_wrapper_57 #gform_submit_button_57{
+    padding: 5px 20px;
+    font-size: 1.5em;
+}
+
+
